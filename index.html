@@ -5,8 +5,17 @@
     <title>Something Special</title>
 </head>
 <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+        $('#inputSubmit').click(function () {
+        let inputValue = $('#mainInput').val()
+        alert('Your input is ' + inputValue)
+    });
+})
+</script>
 <input id="mainInput"/>
-<input type="submit">
+<input id='inputSubmit' type="submit">
 <div id="txt">Enter Your Discord Name FCFS for a prize</div>
 </body>
 </html>

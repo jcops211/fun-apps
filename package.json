@@ -5,9 +5,11 @@
   "main": "app.js",
   "dependencies": {
     "ejs": "^3.1.5",
-    "fs": "^0.0.1-security",
     "express": "^4.17.1",
-    "http": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jquery": "^3.5.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "scripts": {
