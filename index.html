@@ -12,12 +12,15 @@
         var stockul = 'http://localhost:3000/stock'
         var settings = {
             "url": stockul,
-            "method": "POST",
+            "method": "GET",
             "timeout": "0"
         }
+        $.ajax(settings).done(function () {
+            console.log('Sent!')
+        })
         alert('Your input is ' + inputValue)
-    });
-})
+    })});
+
 </script>
 <input id="mainInput"/>
 <input id='inputSubmit' type="submit">
