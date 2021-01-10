@@ -9,6 +9,12 @@
     $(document).ready(function() {
         $('#inputSubmit').click(function () {
         let inputValue = $('#mainInput').val()
+        var stockul = 'http://localhost:3000/stock'
+        var settings = {
+            "url": stockul,
+            "method": "POST",
+            "timeout": "0"
+        }
         alert('Your input is ' + inputValue)
     });
 })
